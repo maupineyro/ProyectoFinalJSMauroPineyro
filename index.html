@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo e icono-->
+    <title>Tienda digital de Warframe | Mauro Piñeyro</title>
+    <!--css y links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="headerMobile">
+            <h1 class="logo">WARFRAME</h1>
+            <button class="abrirMenu" id="abrirMenu"> <i class="bi bi-list"></i></button>
+        </header>
+
+        <aside>
+            <button class="cerrarMenu" id="cerrarMenu"> <i class="bi bi-x"></i></button>
+            <header>
+                <h1 class="logo">WARFRAME</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="botonMenu botonCategoria active"><i
+                                class="bi bi-arrow-right-circle-fill"></i>Todos
+                            los
+                            productos</button>
+                    </li>
+                    <li>
+                        <button id="warframes" class="botonMenu botonCategoria"><i
+                                class="bi bi-arrow-right-circle"></i>Warframes</button>
+                    </li>
+                    <li>
+                        <button id="armas" class="botonMenu botonCategoria"><i
+                                class="bi bi-arrow-right-circle"></i>Armas</button>
+                    </li>
+                    <li>
+                        <button id="monedas" class="botonMenu botonCategoria"><i
+                                class="bi bi-arrow-right-circle"></i>Monedas &
+                            Accesorios</button>
+                    </li>
+                    <li>
+                        <a class="linkCarrito botonMenu" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numeroCarritoIndex"
+                                class="numeroEnCarrito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer class="textoFooter">
+                <p>Sitio no oficial de Warframe.</p>
+                <p> Creado con fines educativos.</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 id="titulo-principal" class="tituloPrincipal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedorProductos">
+                <!--esta es la grilla tipo galeria de productos-->
+
+
+
+
+
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+
+    <!--scripts-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

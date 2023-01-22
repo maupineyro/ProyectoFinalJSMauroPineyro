@@ -1,0 +1,182 @@
+[
+    {
+        "id": "warframe1",
+        "titulo": "Excalibur",
+        "imagen": "./imgs/warframes/excal.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe2",
+        "titulo": "Ember",
+        "imagen": "./imgs/warframes/ember.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe3",
+        "titulo": "Volt",
+        "imagen": "./imgs/warframes/volt.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe4",
+        "titulo": "Trinity",
+        "imagen": "./imgs/warframes/trinity.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe5",
+        "titulo": "Nekros",
+        "imagen": "./imgs/warframes/nekros.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe6",
+        "titulo": "Nyx",
+        "imagen": "./imgs/warframes/nyx.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe7",
+        "titulo": "Loki",
+        "imagen": "./imgs/warframes/loki.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "warframe8",
+        "titulo": "Garuda",
+        "imagen": "./imgs/warframes/garuda.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Warframes",
+            "id": "warframes"
+        }
+    },
+    {
+        "id": "armas1",
+        "titulo": "Skana Prisma",
+        "imagen": "./imgs/armas/skanaprisma.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas2",
+        "titulo": "Vectis",
+        "imagen": "./imgs/armas/vectis.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas3",
+        "titulo": "Lex Prime",
+        "imagen": "./imgs/armas/lexprime.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas4",
+        "titulo": "Daikyu",
+        "imagen": "./imgs/armas/daikyu.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas5",
+        "titulo": "Snipetron Vandal",
+        "imagen": "./imgs/armas/snipetronvandal.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas6",
+        "titulo": "Sicarus Prime",
+        "imagen": "./imgs/armas/sicarusprime.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas7",
+        "titulo": "Vectis Prime",
+        "imagen": "./imgs/armas/vectisprime.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "armas8",
+        "titulo": "Skiajati",
+        "imagen": "./imgs/armas/skiajati.png",
+        "precio": 40,
+        "categoria": {
+            "nombre": "Armas",
+            "id": "armas"
+        }
+    },
+    {
+        "id": "moneda1",
+        "titulo": "Platinum x 50",
+        "imagen": "./imgs/monedas/platino.png",
+        "precio": 100,
+        "categoria": {
+            "nombre": "Monedas",
+            "id": "monedas"
+        }
+    },
+    {
+        "id": "moneda2",
+        "titulo": "Aya Real x 50",
+        "imagen": "./imgs/monedas/ayareal.png",
+        "precio": 100,
+        "categoria": {
+            "nombre": "Monedas",
+            "id": "monedas"
+        }
+    }
+]

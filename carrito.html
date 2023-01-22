@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo e icono-->
+    <title>Carrito</title>
+    <!--css y links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="headerMobile">
+            <h1 class="logo">WARFRAME</h1>
+            <button class="abrirMenu" id="abrirMenu"> <i class="bi bi-list"></i></button>
+        </header>
+        <aside>
+            <button class="cerrarMenu" id="cerrarMenu"> <i class="bi bi-x"></i></button>
+            <header>
+                <h1 class="logo">WARFRAME</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="botonVolver botonMenu" href="./index.html">
+                            <i class="bi bi-arrow-left-circle-fill"></i> Continuar comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="botonMenu active linkCarrito" href="carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p>sitio no oficial de Warframe</p>
+                <p> creado con fines educativos.</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="tituloPrincipal">Carrito</h2>
+            <div class="contenedorCarrito"><!--este va a mostrar toda la "info visual" relacionada al carrito -->
+
+                <p id="carrito-vacio" class="carritoVacio "> Tu carrito está vacío. <i
+                        class="bi bi-heartbreak-fill"></i></p>
+
+                <div id="containerCarritoDeProductos" class="carritoDeProductos deshabilitar">
+                    <!--este es el carrito en sí-->
+                    <!--se rellena con carrito.js-->
+
+
+
+
+                </div>
+
+                <div id="accionesDelCarrito" class="accionesCarrito deshabilitar"> <!--acciones del carrito-->
+                    <div class="accionesCarritoIzq">
+                        <button id="botonVaciarCarrito" class="accionesCarritoBotonVaciar"> Vaciar Carrito</button>
+                    </div>
+
+
+                    <div class="accionesCarritoDerecha">
+                        <div class="accionesCarritoTotal">
+                            <p>Total:</p>
+                            <p id="total"> $80</p>
+                        </div>
+                        <button id="botonComprar" class="accionesCarritoComprarAhora"> Comprar Ahora</button>
+
+                    </div>
+                </div>
+
+                <p id="carritoComprado" class="carritoGraciasCompra deshabilitar"> Muchas Gracias por tu compra <i
+                        class="bi bi-emoji-sunglasses"></i></p>
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/carrito.js"></script>
+
+
+
+</body>
+
+</html>
